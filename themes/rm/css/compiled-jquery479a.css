@@ -1,0 +1,15 @@
+/*
+ * Jquery Component CSS
+*/
+
+/* Fancybox */
+@import url("https://www.up.ac.za/themes/rm/plugins/fancybox/jquery.fancybox.min.css");
+
+/* Mobile Menu */
+@import url("https://www.up.ac.za/themes/rm/plugins/menu/jquery.mmenu.all.css");
+
+/* Scrolling Tabs */
+@import url("https://www.up.ac.za/themes/rm/plugins/scrolling-tabs/jquery.scrolling-tabs.css");
+
+/* Daterangepicker */
+@import url("https://www.up.ac.za/themes/rm/plugins/daterangepicker-3.1/daterangepicker.css");

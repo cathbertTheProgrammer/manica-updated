@@ -1,0 +1,88 @@
+[08-May-2024 08:11:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ' psaweb_admissions'@'localhost' (using password: YES) in /home3/psaweb/public_html/website_01ce2d47/admission.php:8
+Stack trace:
+#0 /home3/psaweb/public_html/website_01ce2d47/admission.php(8): mysqli->__construct('localhost', ' psaweb_admissi...', Object(SensitiveParameterValue), 'psaweb_admissio...')
+#1 {main}
+  thrown in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 8
+[08-May-2024 08:18:31 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home3/psaweb/public_html/website_01ce2d47/admission.php:85
+Stack trace:
+#0 /home3/psaweb/public_html/website_01ce2d47/admission.php(85): mysqli_stmt->bind_param('sssssssssssssss...', 'Bachelor of Med...', '1', 'Cathbert', 'Busiku', 'cmbr224@gmail.c...', 'people.png', 'Male', 'O+', '4', '2014-04-04', '227710/771', '0977532378', 'none', 'test 1', '0977532378', 'test 1', 'test 1', '0977532378', 'test 1', 'father', 'test 1', 'test 1', '0977532378', 'cmbr224@gmail.c...', '650062 Pemba', 'Answers.pdf', 'Assingment 2.pd...', 'Communication A...', 'submited', '2024-05-08 08:1...')
+#1 {main}
+  thrown in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 85
+[08-May-2024 10:30:35 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 10:05:56 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 10:07:54 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 12:26:56 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 13:10:59 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 13:59:29 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 14:08:11 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[10-May-2024 14:17:17 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[11-May-2024 11:34:43 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[15-May-2024 00:01:34 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[19-May-2024 16:24:35 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[21-May-2024 07:10:39 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[24-May-2024 10:42:52 America/Chicago] PHP Warning:  Undefined array key "blood_group" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 21
+[29-May-2024 07:02:36 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[01-Jun-2024 11:41:07 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[01-Jun-2024 11:41:07 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[01-Jun-2024 11:41:07 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[15-Jun-2024 01:29:21 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[22-Jun-2024 23:58:22 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[26-Jun-2024 02:03:53 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[26-Jun-2024 02:03:53 America/Chicago] PHP Warning:  Undefined array key "blood_group" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 21
+[26-Jun-2024 02:03:53 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[01-Jul-2024 23:58:27 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[01-Jul-2024 23:58:27 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[06-Jul-2024 03:18:27 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[06-Jul-2024 03:18:27 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[07-Jul-2024 17:05:37 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[07-Jul-2024 17:05:37 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[11-Jul-2024 15:26:43 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[11-Jul-2024 15:26:43 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[12-Jul-2024 05:17:51 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[12-Jul-2024 15:35:35 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[13-Jul-2024 22:46:33 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[14-Jul-2024 16:53:38 America/Chicago] PHP Warning:  Undefined array key "program" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 15
+[14-Jul-2024 16:53:38 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[17-Jul-2024 13:24:26 America/Chicago] PHP Warning:  Undefined array key "guardian_is" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 33
+[23-Jul-2024 04:43:19 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[10-Aug-2024 02:45:38 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20
+[12-Aug-2024 20:14:54 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[12-Aug-2024 20:14:54 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "student_image" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 40
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 40
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "student_image" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 41
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 41
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "national_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 43
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 43
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "national_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 44
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 44
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "school_certificate" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 46
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 46
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "school_certificate" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 47
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 47
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "supporting_documents" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 49
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 49
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Undefined array key "supporting_documents" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 50
+[29-Aug-2024 06:09:32 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 50
+[29-Aug-2024 07:59:30 America/Chicago] PHP Warning:  Undefined array key "program" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 15
+[29-Aug-2024 07:59:30 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "student_image" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 40
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 40
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "student_image" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 41
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 41
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "national_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 43
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 43
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "national_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 44
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 44
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "school_certificate" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 46
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 46
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "school_certificate" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 47
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 47
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "supporting_documents" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 49
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 49
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Undefined array key "supporting_documents" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 50
+[24-Sep-2024 01:37:28 America/Chicago] PHP Warning:  Trying to access array offset on null in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 50
+[29-Sep-2024 23:49:59 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[10-Oct-2024 06:58:02 America/Chicago] PHP Warning:  Undefined array key "category_id" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 22
+[12-Oct-2024 14:28:17 America/Chicago] PHP Warning:  Undefined array key "academic_year" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 16
+[12-Oct-2024 14:28:17 America/Chicago] PHP Warning:  Undefined array key "gender" in /home3/psaweb/public_html/website_01ce2d47/admission.php on line 20

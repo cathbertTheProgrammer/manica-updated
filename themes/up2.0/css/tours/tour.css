@@ -1,0 +1,36 @@
+/* Tour link */
+.tour-link {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 27px;
+    padding: 0px;
+    display: inline-block;
+}
+.btn {
+    border-radius: 0px;
+}
+.collapse {
+    display: inherit;
+}
+
+/* Bootstrap tour overrides */
+.tour-step-background {
+    border-radius: 0px;
+}
+.tour-backdrop {
+    opacity:.3;
+    filter:alpha(opacity=30)
+}
+
+/* Popover override */
+.popover[class*=tour-].right .arrow, .popover[class*=tour-].left .arrow {
+    margin: -11px 0px 0px 0px;
+}

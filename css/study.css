@@ -1,0 +1,964 @@
+main .layout > .row > .container {
+    width: 100%;
+    max-width: 1170px;
+  }
+  main .layout > .row .layout-col {
+    padding: 0;
+  }
+  main .layout > .row .equal-height {
+    display: flex;
+    align-items: stretch;
+  }
+  main .layout:not(.col1) .two-col,
+  main .layout:not(.col1) .three-col {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    text-align: left;
+    min-height: 100%;
+  }
+  main .layout:not(.col1) .four-col {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    text-align: left;
+    min-height: 100%;
+  }
+  main .layout.no-bottom-margin {
+    margin-bottom: 0;
+  }
+  main .layout.col2-50-50-fw:not(.full-bleed) {
+    max-width: 1500px;
+  }
+  @media only screen and (min-width: 992px) {
+    main .layout.col2-50-50-fw > .row > .layout-col .layout-builder-block {
+      height: 100%;
+    }
+    main .layout.col2-50-50-fw > .row > .layout-col .block.banner,
+    main .layout.col2-50-50-fw > .row > .layout-col .block.banner > .row,
+    main
+      .layout.col2-50-50-fw
+      > .row
+      > .layout-col
+      .block.banner
+      > .row
+      > .col-image,
+    main
+      .layout.col2-50-50-fw
+      > .row
+      > .layout-col
+      .block.banner
+      > .row
+      > .col-text {
+      height: 100%;
+    }
+    main
+      .layout.col2-50-50-fw
+      > .row
+      > .layout-col
+      .block.banner
+      > .row
+      > .col-text
+      .cta-wrapper {
+      min-height: 300px;
+    }
+    main
+      .layout.col2-50-50-fw
+      > .row
+      > .layout-col
+      .block.banner
+      > .row
+      > .col-image
+      img {
+      max-width: none;
+      height: 100%;
+      width: auto;
+      position: relative;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col
+      .block.banner
+      .container {
+      display: flex;
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col
+      .block.banner
+      .container
+      .cta-wrapper {
+      max-width: 585px;
+      margin: 0;
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col:first-child
+      .block.banner
+      .container {
+      justify-content: right;
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col:first-child
+      .block.banner
+      .cta-wrapper {
+      padding-right: 50px;
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col:last-child
+      .block.banner
+      .container {
+      justify-content: left;
+    }
+    main
+      .layout.col2-50-50-fw.full-bleed
+      > .row
+      > .layout-col:last-child
+      .block.banner
+      .cta-wrapper {
+      padding-left: 50px;
+    }
+  }
+  main .layout.col2-50-50-fw .block.banner {
+    margin-bottom: 0;
+  }
+  main .layout.col2-50-50-fw .block.banner .container {
+    padding: 0;
+  }
+  main .layout.col2-50-50-fw:not(.no-bottom-margin) {
+    margin-bottom: 50px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main .layout.col2-50-50-fw:not(.no-bottom-margin) {
+      margin-bottom: 50px;
+    }
+  }
+  main .block {
+    margin-bottom: 50px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main .block {
+      margin-bottom: 50px;
+    }
+  }
+  main .block.no-bottom-margin {
+    margin-bottom: 0;
+  }
+  @media only screen and (min-width: 1200px) {
+    main .block:not(.full-bleed) {
+      max-width: 1500px;
+    }
+  }
+  main .block .container {
+    width: 100%;
+    max-width: 1170px;
+  }
+  main .block .container .row:not(:first-child) {
+    margin-top: 25px;
+  }
+  main .block .container .row.header * {
+    margin-bottom: 0;
+  }
+  main .block .container .row.header h1:not(:last-child),
+  main .block .container .row.header h2:not(:last-child),
+  main .block .container .row.header h3:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  main .block .container .row.header p {
+    font-weight: 500;
+  }
+  main .block .container .row.header p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  @media (min-width: 768px) {
+    main .block .container .row.header.center > [class*="col-"] > * {
+      max-width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  main .block ul:not(.no-bullet-display) {
+    text-align: left;
+    padding-left: 1.125em;
+  }
+  main .block ol:not(.no-bullet-display) {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  main
+    .block
+    ol:not(.no-bullet-display):not([type]):not([style*="list-style-type"]) {
+    counter-reset: item;
+    text-indent: -1em;
+    margin-left: 2em;
+  }
+  main
+    .block
+    ol:not(.no-bullet-display):not([type]):not([style*="list-style-type"])
+    > li {
+    list-style-type: none;
+    counter-increment: item;
+  }
+  main
+    .block
+    ol:not(.no-bullet-display):not([type]):not([style*="list-style-type"])
+    > li::before {
+    display: inline-block;
+    min-width: 1em;
+    padding-right: 0.5em;
+    font-weight: 700;
+    content: counter(item) ".";
+  }
+  main .block p ~ ul:not(.no-bullet-display) {
+    padding-left: 40px;
+  }
+  main .block p ~ ol:not(.no-bullet-display) {
+    padding-left: 25px;
+  }
+  @keyframes underline-1px {
+    from {
+      background-size: 0% 1px;
+    }
+    to {
+      background-size: 100% 1px;
+    }
+  }
+  @keyframes clipped-underline-1px {
+    from {
+      background-size: 0% 1px;
+    }
+    to {
+      background-size: calc(100% - 25px) 1px;
+    }
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]) {
+    position: relative;
+    font-weight: 600;
+    line-height: 1.55em;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]).read-more:not(
+      :empty
+    ) {
+    background-size: calc(100% - 25px) 1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]).read-more:not(
+      :empty
+    )::after {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    overflow: hidden;
+    top: 2px;
+    right: 25px;
+    opacity: 0;
+    content: "";
+    font-family: ucalgary;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1em;
+    transition: right 500ms, opacity 500ms;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):hover,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):active,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):focus {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: underline-1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):hover.read-more:not(
+      :empty
+    ),
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):active.read-more:not(
+      :empty
+    ),
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):focus.read-more:not(
+      :empty
+    ) {
+    animation-name: clipped-underline-1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):hover.read-more:not(
+      :empty
+    )::after,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):active.read-more:not(
+      :empty
+    )::after,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    a:not(.btn):not([role*="button"]):not([role*="option"]):focus.read-more:not(
+      :empty
+    )::after {
+    right: 0;
+    opacity: 1;
+  }
+  @keyframes underline-1px {
+    from {
+      background-size: 0% 1px;
+    }
+    to {
+      background-size: 100% 1px;
+    }
+  }
+  @keyframes clipped-underline-1px {
+    from {
+      background-size: 0% 1px;
+    }
+    to {
+      background-size: calc(100% - 25px) 1px;
+    }
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]) {
+    position: relative;
+    font-weight: 400;
+    line-height: 1.55em;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]).read-more:not(:empty) {
+    background-size: calc(100% - 25px) 1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]).read-more:not(:empty)::after {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    overflow: hidden;
+    top: 2px;
+    right: 25px;
+    opacity: 0;
+    content: "";
+    font-family: ucalgary;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1em;
+    transition: right 500ms, opacity 500ms;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):hover,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):active,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):focus {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: underline-1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):hover.read-more:not(:empty),
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):active.read-more:not(:empty),
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):focus.read-more:not(:empty) {
+    animation-name: clipped-underline-1px;
+  }
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):hover.read-more:not(:empty)::after,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):active.read-more:not(:empty)::after,
+  main
+    .block:not(.tabs)
+    [class*="col-"]
+    .small
+    a:not(.btn):not([role*="button"]):focus.read-more:not(:empty)::after {
+    right: 0;
+    opacity: 1;
+  }
+  main .block [class*="col-"] > *:first-child {
+    margin-top: 0;
+  }
+  main .block [class*="col-"] > *:last-child {
+    margin-bottom: 0;
+  }
+  main .block [class*="col-"] .btn-wrapper {
+    margin-top: -10px;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  main .block [class*="col-"] .btn-wrapper .btn {
+    margin: 10px 5px 0;
+    display: inline-block;
+  }
+  main .block [class*="col-"] .btn-wrapper.btn-stacked .btn {
+    display: block;
+  }
+  main .block div.rounded-box {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  main .block div.rounded-box-top {
+    border-radius: 8px 8px 0 0;
+  }
+  main .block div.rounded-box-right {
+    border-radius: 0 8px 8px 0;
+  }
+  main .block div.rounded-box-bottom {
+    border-radius: 0 0 8px 8px;
+  }
+  main .block div.rounded-box-left {
+    border-radius: 8px 0 0 8px;
+  }
+  main .block .media {
+    display: flex;
+  }
+  main > .layout.col1 .block.rounded-block-below {
+    margin-bottom: 0;
+  }
+  main > .layout.col1 .block.roundable.rounded-both,
+  main > .layout.col1 .block.roundable.rounded-bottom {
+    margin-bottom: 0;
+  }
+  main > .layout.col1 .block.roundable.rounded-top > .row,
+  main > .layout.col1 .block.roundable.rounded-bottom > .row,
+  main > .layout.col1 .block.roundable.rounded-both > .row {
+    position: relative;
+  }
+  main > .layout.col1 .block.roundable.rounded-top > .row:not([class*="-back"]),
+  main
+    > .layout.col1
+    .block.roundable.rounded-bottom
+    > .row:not([class*="-back"]),
+  main > .layout.col1 .block.roundable.rounded-both > .row:not([class*="-back"]) {
+    background-color: #fff;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-top
+    > .row:first-child
+    > .container,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    > .row:first-child
+    > .container {
+    background-color: inherit;
+    padding-top: 1px;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-bottom
+    > .row:last-child
+    > .container,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    > .row:last-child
+    > .container {
+    background-color: inherit;
+    padding-bottom: 1px;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-top
+    > .row:first-child
+    > .container:before,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    > .row:first-child
+    > .container:before {
+    content: "";
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -19px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: inherit;
+  }
+  main > .layout.col1 .block.roundable.rounded-top > .row,
+  main > .layout.col1 .block.roundable.rounded-bottom > .row,
+  main > .layout.col1 .block.roundable.rounded-both > .row {
+    z-index: 4;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-bottom
+    > .row:last-child
+    > .container:after,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    > .row:last-child
+    > .container:after {
+    content: "";
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -19px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: inherit;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-bottom
+    + .block.rounded-bottom
+    > .row,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    + .block.rounded-bottom
+    > .row {
+    z-index: 3;
+  }
+  main
+    > .layout.col1
+    .block.roundable.rounded-bottom
+    + .block.rounded-bottom
+    + .block.rounded-bottom
+    > .row,
+  main
+    > .layout.col1
+    .block.roundable.rounded-both
+    + .block.rounded-bottom
+    + .block.rounded-bottom
+    > .row {
+    z-index: 2;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout.col1
+      .block.roundable.rounded-top
+      > .row:first-child
+      > .container:before,
+    main
+      > .layout.col1
+      .block.roundable.rounded-both
+      > .row:first-child
+      > .container:before {
+      height: 50px;
+      top: -49px;
+      -webkit-border-top-left-radius: 50px;
+      -webkit-border-top-right-radius: 50px;
+      -moz-border-radius-topleft: 50px;
+      -moz-border-radius-topright: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+    }
+    main
+      > .layout.col1
+      .block.roundable.rounded-bottom
+      > .row:last-child
+      > .container:after,
+    main
+      > .layout.col1
+      .block.roundable.rounded-both
+      > .row:last-child
+      > .container:after {
+      height: 50px;
+      bottom: -49px;
+      -webkit-border-bottom-right-radius: 50px;
+      -webkit-border-bottom-left-radius: 50px;
+      -moz-border-radius-bottomright: 50px;
+      -moz-border-radius-bottomleft: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+  }
+  main > .layout.col1 .block.rounded-block-below > div.row:last-child {
+    padding-bottom: 70px;
+  }
+  main > .layout.col1 .block.rounded-block-above > div.row:first-child {
+    padding-top: 70px;
+  }
+  main
+    > .layout.col1
+    .block.rounded-block-below
+    > div[class*="-back"].row:last-child {
+    padding-bottom: 20px;
+  }
+  main
+    > .layout.col1
+    .block.rounded-block-above
+    > div[class*="-back"].row:first-child {
+    padding-top: 20px;
+  }
+  main
+    > .layout.col1
+    .block.rounded-bottom.rounded-block-below
+    > div.row:last-child,
+  main
+    > .layout.col1
+    .block.rounded-both.rounded-block-below
+    > div.row:last-child {
+    padding-bottom: 70px;
+  }
+  main
+    > .layout.col1
+    .block.rounded-bottom.rounded-block-below
+    + .block
+    > div.row:first-child,
+  main
+    > .layout.col1
+    .block.rounded-both.rounded-block-below
+    + .block
+    > div.row:first-child {
+    padding-top: 0;
+  }
+  @media only screen and (min-width: 1200px) {
+    main > .layout.col1 .block.rounded-block-below > div.row:last-child {
+      padding-bottom: 100px;
+    }
+    main > .layout.col1 .block.rounded-block-above > div.row:first-child {
+      padding-top: 100px;
+    }
+    main
+      > .layout.col1
+      .block.rounded-block-below
+      > div[class*="-back"].row:last-child {
+      padding-bottom: 50px;
+    }
+    main
+      > .layout.col1
+      .block.rounded-block-above
+      > div[class*="-back"].row:first-child {
+      padding-top: 50px;
+    }
+    main
+      > .layout.col1
+      .block.rounded-bottom.rounded-block-below
+      > div.row:last-child,
+    main
+      > .layout.col1
+      .block.rounded-both.rounded-block-below
+      > div.row:last-child {
+      padding-bottom: 100px !important;
+    }
+    main
+      > .layout.col1
+      .block.rounded-bottom.rounded-block-below
+      + .block
+      > div.row:first-child,
+    main
+      > .layout.col1
+      .block.rounded-both.rounded-block-below
+      + .block
+      > div.row:first-child {
+      padding-top: 0;
+    }
+  }
+  main
+    > .layout:not(.col1):not(.col2-50-50-fw).rounded-block-below
+    > div.row:last-child {
+    padding-bottom: 20px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout:not(.col1):not(.col2-50-50-fw).rounded-block-below
+      > div.row:last-child {
+      padding-bottom: 50px;
+    }
+  }
+  main
+    > .layout:not(.col1):not(.col2-50-50-fw).rounded-block-above
+    > div.row:first-child {
+    padding-top: 70px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout:not(.col1):not(.col2-50-50-fw).rounded-block-above
+      > div.row:first-child {
+      padding-top: 100px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-above
+      .col2-50-fw:nth-child(1)
+      .block.banner.graphic
+      > .row
+      > .container
+      > .row:first-child.cta-wrapper {
+      padding-top: 70px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-above
+      .block.banner
+      > .row
+      > .container
+      > .row:first-child.cta-wrapper {
+      padding-top: 70px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-above
+      .block.banner
+      > .row
+      > .container
+      > .row:first-child.cta-wrapper {
+      padding-top: 100px;
+    }
+  }
+  main > .layout.col2-50-50-fw.rounded-block-below {
+    margin-bottom: 0;
+  }
+  @media only screen and (max-width: 991px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-below
+      .col2-50-fw:nth-child(2)
+      .block.banner
+      > .row
+      > .container
+      > .row:last-child.cta-wrapper {
+      padding-bottom: 70px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-below
+      .block.banner
+      > .row
+      > .container
+      > .row:last-child.cta-wrapper {
+      padding-bottom: 70px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout.col2-50-50-fw.rounded-block-below
+      .block.banner
+      > .row
+      > .container
+      > .row:last-child.cta-wrapper {
+      padding-bottom: 100px;
+    }
+  }
+  main .layout.col1 .block > [class*="-back"].row > .container > .row:first-child,
+  main
+    .layout.col2-50-50-fw
+    .block
+    > [class*="-back"].row
+    > .container
+    > .row:first-child {
+    padding-top: 50px;
+  }
+  main .layout.col1 .block > [class*="-back"].row > .container > .row:last-child,
+  main
+    .layout.col2-50-50-fw
+    .block
+    > [class*="-back"].row
+    > .container
+    > .row:last-child {
+    padding-bottom: 50px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      .layout.col1
+      .block
+      > [class*="-back"].row
+      > .container
+      > .row:first-child,
+    main
+      .layout.col2-50-50-fw
+      .block
+      > [class*="-back"].row
+      > .container
+      > .row:first-child {
+      padding-top: 50px;
+    }
+    main
+      .layout.col1
+      .block
+      > [class*="-back"].row
+      > .container
+      > .row:last-child,
+    main
+      .layout.col2-50-50-fw
+      .block
+      > [class*="-back"].row
+      > .container
+      > .row:last-child {
+      padding-bottom: 50px;
+    }
+  }
+  main
+    > .layout.col1
+    .block.rounded-both
+    > [class*="-back"].row
+    > .container
+    > .row:first-child {
+    padding-top: 0;
+  }
+  main
+    > .layout.col1
+    .block.rounded-both
+    > [class*="-back"].row
+    > .container
+    > .row:last-child {
+    padding-bottom: 0;
+  }
+  main
+    > .layout.col1
+    .block.rounded-top:not(.rounded-both)
+    > [class*="-back"].row
+    > .container
+    > .row:first-child {
+    padding-top: 0;
+  }
+  main
+    > .layout.col1
+    .block.rounded-top:not(.rounded-both)
+    > [class*="-back"].row
+    > .container
+    > .row:last-child {
+    padding-bottom: 50px;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout.col1
+      .block.rounded-top:not(.rounded-both)
+      > [class*="-back"].row
+      > .container
+      > .row:last-child {
+      padding-bottom: 50px;
+    }
+  }
+  main
+    > .layout.col1
+    .block.rounded-bottom:not(.rounded-both)
+    > [class*="-back"].row
+    > .container
+    > .row:first-child {
+    padding-top: 50px;
+  }
+  main
+    > .layout.col1
+    .block.rounded-bottom:not(.rounded-both)
+    > [class*="-back"].row
+    > .container
+    > .row:last-child {
+    padding-bottom: 0;
+  }
+  @media only screen and (min-width: 1200px) {
+    main
+      > .layout.col1
+      .block.rounded-bottom:not(.rounded-both)
+      > [class*="-back"].row
+      > .container
+      > .row:first-child {
+      padding-top: 50px;
+    }
+  }
+  main > .layout.col1 .block.collapse-whitespace {
+    margin-bottom: 0;
+  }
+  main
+    > .layout.col1
+    .block.collapse-whitespace
+    + .block
+    > [class*="-back"].row
+    > .container
+    > .row:first-child {
+    padding-top: 0;
+  }
+  

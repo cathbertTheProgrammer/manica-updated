@@ -1,0 +1,6 @@
+.list-inline {
+  background-color: #004881; }
+
+@media screen and (min-width: 575px) {
+  .top-area {
+    background-color: #004881; } }
